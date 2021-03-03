@@ -50,7 +50,7 @@ if(!empty($_GET['id']) && (is_numeric($_GET['id']))) {
 ?>
     <main>
         <form action="process.php" method="post">
-            <input type="hidden" name="user_id" value="<?php echo $id ?>">
+            <input type="hidden" name="user_id" value="<?php echo $id?>">
             <div class="form-group">
                 <label for="fname"> First Name </label>
                 <input type="text" name="fname" id="fname" class="form-control" value="<?php echo $firstname ?>">
